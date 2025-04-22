@@ -103,27 +103,15 @@ ros2 run joint_simulator joint_simulator_node --ros-args -p K:=200.0 -p T:=0.2 -
 ### Set parameters while Node running
 
 ```bash
-ros2 param set /pid_controller_node p 69.0
+ros2 param set /joint_simulator_node K 69.0
 ```
 
 ```bash
-ros2 param set /pid_controller_node i 69.0
+ros2 param set /joint_simulator_node T 69.0
 ```
 
 ```bash
-ros2 param set /pid_controller_node d 69.0
-```
-
-```bash
-ros2 param set /pid_controller_node max_votage 69.0
-```
-
-```bash
-ros2 param set /pid_controller_node min_voltage 69.0
-```
-
-```bash
-ros2 param set /pid_controller_node reference 69.0
+ros2 param set /joint_simulator_node noise 69.0
 ```
 
 ## Information
